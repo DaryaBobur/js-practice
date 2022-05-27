@@ -104,10 +104,28 @@
 
 // Выполни рефакторинг кода задачи номер 5 используя `switch`.
 
-// ```js
-// const daysUntilDeadline = 5;
+const daysUntilDeadline = 3;
+let message;
 
-//  ## Example 9 - Ввод пользователя и ветвления
+switch (daysUntilDeadline) {
+    case 0:
+    console.log(message = "Сегодня");
+    break;
+    
+     case 1:
+    console.log(message = "Завтра");
+        break;
+    
+    case 2:
+    console.log(message = "Послезавтра");
+    break;
+    
+    default:
+    console.log("Дата в будущем");
+        
+}
+
+//  ## Example 7 - Ввод пользователя и ветвления
 
 // Напиши скрипт, который будет спрашивать логин с помощью `prompt` и логировать
 // результат в консоль браузера.
