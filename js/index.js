@@ -104,37 +104,23 @@
 
 // Выполни рефакторинг кода задачи номер 5 используя `switch`.
 
-const daysUntilDeadline = 3;
-let message;
+// const daysUntilDeadline = 3;
+// let message;
 
-switch (daysUntilDeadline) {
-    case 0:
-    console.log(message = "Сегодня");
-    break;
+// switch (daysUntilDeadline) {
+//     case 0:
+//     console.log(message = "Сегодня");
+//     break;
     
-     case 1:
-    console.log(message = "Завтра");
-        break;
+//      case 1:
+//     console.log(message = "Завтра");
+//         break;
     
-    case 2:
-    console.log(message = "Послезавтра");
-    break;
+//     case 2:
+//     console.log(message = "Послезавтра");
+//     break;
     
-    default:
-    console.log("Дата в будущем");
+//     default:
+//     console.log("Дата в будущем");
         
-}
-
-//  ## Example 7 - Ввод пользователя и ветвления
-
-// Напиши скрипт, который будет спрашивать логин с помощью `prompt` и логировать
-// результат в консоль браузера.
-
-// - Если посетитель вводит `"Админ"`, то `prompt` запрашивает пароль
-// - Если ничего не введено или нажата клавиша Esc - вывести строку `"Отменено"`
-// - В противном случае вывести строку `"Я вас не знаю"`
-
-// Пароль проверять так:
-
-// - Если введён пароль `"Я админ"`, то вывести строку `"Здравствуйте!"`
-// - Иначе выводить строку `"Неверный пароль"`
+// }
